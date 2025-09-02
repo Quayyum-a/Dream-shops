@@ -1,4 +1,4 @@
-package com.quayyum.dream_shops.dto.request;
+package com.quayyum.dream_shops.request;
 
 import com.quayyum.dream_shops.model.Category;
 import lombok.Data;
