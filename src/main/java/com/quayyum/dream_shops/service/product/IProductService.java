@@ -1,7 +1,7 @@
 package com.quayyum.dream_shops.service.product;
 
-import com.quayyum.dream_shops.dto.request.AddProductRequest;
-import com.quayyum.dream_shops.dto.request.ProductUpdateRequest;
+import com.quayyum.dream_shops.request.AddProductRequest;
+import com.quayyum.dream_shops.request.ProductUpdateRequest;
 import com.quayyum.dream_shops.model.Product;
 
 import java.util.List;
