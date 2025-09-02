@@ -1,6 +1,7 @@
 package com.quayyum.dream_shops.service.product;
 
 import com.quayyum.dream_shops.dto.request.AddProductRequest;
+import com.quayyum.dream_shops.dto.request.ProductUpdateRequest;
 import com.quayyum.dream_shops.model.Product;
 
 import java.util.List;
@@ -10,7 +11,7 @@ public interface IProductService {
     List<Product> getAllProducts();
     Product getProductById(Long id);
     void deleteProductById(Long id);
-    Product updateProduct(Product product, Long productId);
+    Product updateProduct(ProductUpdateRequest product, Long productId);
     List<Product> getProductsByCategory(String category);
     List<Product> getProductsByBrand(String brand);
     List<Product> getProductsByCategoryAndBrand(String category, String brand);
