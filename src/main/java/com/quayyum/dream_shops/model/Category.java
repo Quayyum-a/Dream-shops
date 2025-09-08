@@ -21,4 +21,10 @@ public class Category {
 
     @OneToMany(mappedBy = "category")
     private List<Product> products;
+
+    public static Category fromString(String name) {
+        Category category = new Category();
+        category.setName(name);
+        return category;
+    }
 }
