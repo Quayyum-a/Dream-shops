@@ -20,7 +20,7 @@ import static org.springframework.http.HttpStatus.NOT_FOUND;
 @RestController
 @RequestMapping("${api.prefix}/products")
 public class ProductController {
-    private IProductService productService;
+    private final IProductService productService;
 
     @GetMapping("/all")
     public ResponseEntity<ApiResponse> getAllProducts(){
